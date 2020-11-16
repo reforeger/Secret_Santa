@@ -1,0 +1,18 @@
+:root {
+    --santa-red: #88232f;
+    --santa-red-alpha: rgba(163, 17, 34, 0.4);
+    --santa-green: #0A9F99;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    background-color: var(--santa-red);
+}
