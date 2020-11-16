@@ -15,4 +15,85 @@
 
 #title {
     background-color: var(--santa-red);
+    padding: 2rem, 10rem;
+    color: white;
 }
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.navbar {
+    padding-bottom: 4.5;
+    width: auto;
+}
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+}
+.item {
+    padding: 0 1rem;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.title-image {
+    width: 55%;
+    transform: rotate(10deg);
+}
+.download-btn {
+    margin: 5%;
+}
+
+.features {
+    padding: 7% 15%;
+    background-color: white;
+}
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+.features-box h3 {
+    font-family: 'Montserrat';
+    padding: 5%;
+}
+.features-box p {
+    color: grey;
+}
+#features i {
+    font-size: 3rem;
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+#features i:hover {
+    color: var(--santa-green);
+}
+
+#testimoniom {
+    background-color: var(--santa-red);
+    color: white;
+    text-align: center;
+}
+
+#testimoniom h2 {
+    font-family: 'Monserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimoniom img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+
+
+@media (max-width: 756px) {
+    #tittle {
+        padding: 0;
+        text-align:  center;
+    }
+}
+
